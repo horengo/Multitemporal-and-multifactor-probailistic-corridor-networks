@@ -7,6 +7,7 @@ The generation of M2CoNet requires several steps:
 5. Raster cells stats to join all normalised corridors.
 
 While a Jupyter Notebook with the full algorithm is provided (the requirements file can be used to set up the environment), GEE code is also provided for those who prefer to use GEE web-based code editor.
+Just copy the GEE code, paste it into the code editor and press run.
 
 ## For the generation of cost surfaces
 The generation of cost surfaces requires two external datasets:
