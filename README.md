@@ -40,3 +40,7 @@ The generation of cost surfaces requires two external datasets:
 ## For the generation of corridors
 GRASS GIS needs to be installed locally and its grass.bin directory provided. <br>
 Follow the instructions provided within the Jupyter notebook.
+
+
+## Acknowledgements
+Toby C. Wilkinson and Cameron A. Petrie provided insights and encouragement during the last 8 years, which eventually led to the development of this algorithm
