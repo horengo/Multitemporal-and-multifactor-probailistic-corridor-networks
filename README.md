@@ -18,7 +18,7 @@ conda activate m2conet  # Activates the environment
 python -m ipykernel install --user --name m2conet --display-name "m2conet"  # Optional: registers your current Python environment as a selectable Jupyter kernel. No need to use if you are going to lauch Jupyter from m3conet environment (the YAML file installs jupyterlab) <br>
 ```
 
-**Alternatively** if you prefer to use the requirements pip file instead of conda pins, install only the heavy libs with conda, then pip the pinned set (helps when pip wheels struggle with GDAL/PROJ). <br>
+***Alternatively***, if you prefer to use the requirements pip file instead of conda pins, install only the heavy libs with conda, then pip the pinned set (helps when pip wheels struggle with GDAL/PROJ). <br>
 ```
 conda create -n m2conet -c conda-forge python=3.10 -y  # Creates the environemt (with a supported Python 3.10, which is safe for NumPy 1.26.x) and installs the pinned packages
 conda activate m2conet  # Activates the environemt
@@ -37,5 +37,5 @@ The generation of cost surfaces requires two external datasets:
    In order to use the database, please, download it from the provided link and upload in your GEE assets repository. Then substitute the name of the asset in code (line 99 in the GEE code provided).
 
 ## For the generation of corridors
-GRASS GIS needs to be installed locally.<br>
+GRASS GIS needs to be installed locally and its grass.bin directory provided. <br>
 Follow the instruction provided within the Jupyter notebook.
